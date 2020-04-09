@@ -1,0 +1,43 @@
+const menuList=[
+    {
+        title:'首页',
+        key:'/home',
+        icon:'home',
+    },
+    {
+        title:'商品',
+        key:'/category',
+        icon:'appstore',
+        children:[
+            {
+                title:'品类管理',
+                key:'/category',
+                icon:'appstore',
+            },
+            {
+                title:'商品管理',
+                key:'/product',
+                icon:'appstore',
+            },
+        ]
+    },
+    {
+        title:'用户',
+        key:'/user',
+        icon:'user',
+        children:[
+            {
+                title:'用户管理',
+                key:'/user',
+                icon:'appstore',
+            },
+            {
+                title:'权限管理',
+                key:'/role',
+                icon:'appstore',
+            },
+        ]
+    },
+
+]
+export default  menuList
